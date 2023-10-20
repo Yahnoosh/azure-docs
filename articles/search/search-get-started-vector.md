@@ -42,7 +42,7 @@ Sample data consists of text and vector descriptions for seven fictitious hotels
 
 + Textual data is used for keyword search, semantic ranking, and capabilities that depend on text (filters, facets, and sorting). 
 
-+ Vector data (text embeddings) is used for vector search. Currently, Cognitive Search doesn't generate vectors for you. For this quickstart, vector data was generated separately and copied into the "Upload Documents" request and into the query requests.
++ Vector data (embeddings) is used for vector search. Currently, Cognitive Search doesn't generate vectors for you. For this quickstart, vector data was generated separately and copied into the "Upload Documents" request and into the query requests.
 
 For vector queries, we used the **Generate Embedding** request that calls Azure OpenAI and outputs embeddings for a search string. If you want to formulate your own vector queries against the sample data, provide your Azure OpenAI connection information in the Postman collection variables. Your Azure OpenAI service must have a deployment of an embedding model that's identical to the one used to generate embeddings in your search corpus. 
 
